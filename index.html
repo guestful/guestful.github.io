@@ -17,19 +17,30 @@
 		</div>
 
         <!-- count down timer + progress bar -->
-              <div>
-                  <div class="span1">
-                      <i class="icon-refresh"></i> <span id="last-update"></span>
-                  </div>
-                  <div class="progress progress-small progress-countdown">
-                      <div class="bar bar-info countdown" style="width: 0%;"></div>
-                  </div>
+          <div>
+              <div class="span1">
+                  <i class="icon-refresh"></i> <span id="last-update"></span>
               </div>
+              <div class="progress progress-small progress-countdown">
+                  <div class="bar bar-info countdown" style="width: 0%;"></div>
+              </div>
+          </div>
+
+      <div>
+          <span>Total:</span>
+          <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+          <span class="label label-success">Online</span> : <span id="total-online">0</span>
+          <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+          <span class="label label-important">Offline</span> : <span id="total-offline">0</span>
+          <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+          <span class="label label-warning">Warning</span> : <span id="total-warning">0</span>
+      </div>
+    <div>&nbsp;</div>
 
 		<!-- progress bar of loaded servers -->
-		<div class="progress progress-striped active">
+		<!--<div class="progress progress-striped active">
 			<div class="loading bar" style="width: 0;"></div>
-		</div>
+		</div>-->
 
 		<div id="server-container"></div>
 

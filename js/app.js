@@ -78,15 +78,18 @@ myApp.dashboard = (function($) {
 				data.label = "default";
 				break;
 			case 2:
+                $('#total-online').text(parseInt($('#total-online').text()) + 1);
 				data.statustxt = "Online";
 				data.label = "success";
 				data.alert = "";
 				break;
 			case 8:
+                $('#total-warning').text(parseInt($('#total-warning').text()) + 1);
 				data.statustxt = "Seems offline";
 				data.label = "warning";
 				break;
 			case 9:
+                $('#total-offline').text(parseInt($('#total-offline').text()) + 1);
 				data.statustxt = "Offline";
 				data.label = "important";
 				data.alert = "alert alert-error";
