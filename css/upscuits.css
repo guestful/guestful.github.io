@@ -7,8 +7,23 @@ body {
 .hero-unit {
 	background: #333333;
 	color: #ffffff;
+    padding: 40px;
 }
 
 .icon-red {
 	color: #FF2E00;
+}
+
+.hero-unit h1 {
+    font-size: 50px;
+}
+
+iframe {
+    border: 0;
+    height: 40px;
+    width: 150px;
+}
+
+thead {
+    text-align: left;
 }

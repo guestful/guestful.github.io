@@ -26,8 +26,38 @@
               </div>
           </div>
 
-      <div>
-          <span>Total:</span>
+      <div class="well">
+          <table cellborder="1">
+              <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>www</th>
+                    <th>admin</th>
+                    <th>dashboard</th>
+                    <th>api</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <th>staging</th>
+                    <td id="v-www-stg"><iframe src="http://www-stg.guestful.com/version.txt"></iframe></td>
+                    <td id="v-admin-stg"><iframe src="http://admin-stg.guestful.com/version.txt"></iframe></td>
+                    <td id="v-dashboard-stg"><iframe src="http://dashboard-stg.guestful.com/version.txt"></iframe></td>
+                    <td id="v-api-stg"><iframe src="http://api-stg.guestful.com/api/meta/version"></iframe></td>
+                </tr>
+                <tr>
+                    <th>prod</th>
+                    <td id="v-www"><iframe src="http://www.guestful.com/version.txt"></iframe></td>
+                    <td id="v-admin"><iframe src="http://admin.guestful.com/version.txt"></iframe></td>
+                    <td id="v-dashboard"><iframe src="http://dashboard.guestful.com/version.txt"></iframe></td>
+                    <td id="v-api"><iframe src="http://api.guestful.com/api/meta/version"></iframe></td>
+                </tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="well">
+          <span style="font-weight: bold">Total:</span>
           <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
           <span class="label label-success">Online</span> : <span id="total-online">0</span>
           <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
@@ -35,7 +65,6 @@
           <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
           <span class="label label-warning">Warning</span> : <span id="total-warning">0</span>
       </div>
-    <div>&nbsp;</div>
 
 		<!-- progress bar of loaded servers -->
 		<!--<div class="progress progress-striped active">
