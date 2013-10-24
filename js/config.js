@@ -11,6 +11,11 @@ var __apiKeys = [
     'm775876293-359c6fddf08b0b89eb8354a7', // admin-stg
     'm775876297-7de464eaa5116cc7ee82b63e', // api-stg
 
+    'm775920217-4b9b2ed520abaab7f9b26774', // www-dev
+    'm775920220-338c12cd44c6fa2e867a1461', // dashboard-dev
+    'm775920218-89c131df395d012644e29d1d', // admin-dev
+    'm775920221-d7528628ce76da874c02c848', // api-dev
+
     'm775876232-c120b10ca6743f221a4712af', // build
     'm775876282-96c62e51c3d533407662c6e0', // nexus
 ];
