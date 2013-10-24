@@ -38,6 +38,13 @@
                 </tr>
               </thead>
               <tbody>
+              <tr>
+                  <th>dev</th>
+                  <td><iframe src="http://www-dev.guestful.com/version.txt"></iframe></td>
+                  <td><iframe src="http://admin-dev.guestful.com/version.txt"></iframe></td>
+                  <td><iframe src="http://dashboard-dev.guestful.com/version.txt"></iframe></td>
+                  "></iframe></td>
+              </tr>
                 <tr>
                     <th>staging</th>
                     <td id="v-www-stg"><iframe src="http://www-stg.guestful.com/version.txt"></iframe></td>
@@ -91,7 +98,7 @@
 		</div>
 
 	</div>
-	
+
 	<!-- mustache template for server row -->
 	<script type="template/mustache" id="server-template">
 		<div class="well {{alert}}">
@@ -101,8 +108,8 @@
 						{{friendlyname}}
 						<small><span class="label label-{{label}}">{{statustxt}}</span></small>
 					</h2>
-	
-	
+
+
 					<a href="javascript:void(0)" class="btn btn-small log tip" title="Log of last month"><i class="icon-time"></i></a>
 					<a href="{{url}}" target="_blank" class="btn btn-small tip" title="Open monitored page"><i class="icon-link"></i></a>
 					<div class="log{{id}} hide">
