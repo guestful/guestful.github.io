@@ -19,6 +19,9 @@ var __apiKeys = [
 
     'm775876232-c120b10ca6743f221a4712af', // build
     'm775876282-96c62e51c3d533407662c6e0', // nexus
+
+    'm775947848-65c1e227a89a47beefbd9d64', // tuango staging
+    'm775947849-55dec478c1f37136e4fa4706', // tuango production
 ];
 
 //refresh interval (in seconds)
