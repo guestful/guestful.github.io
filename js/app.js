@@ -70,6 +70,7 @@ myApp.dashboard = (function($) {
 		data.alert = "alert";
 		switch (parseInt(data.status)) {
 			case 0:
+                $('#total-paused').text(parseInt($('#total-paused').text()) + 1);
 				data.statustxt = "Up-Time paused";
 				data.label = "inverse";
 				break;
