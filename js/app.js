@@ -32,6 +32,10 @@ myApp.dashboard = (function($) {
 		$_prograss = $('.loading');
 		$_countdown = $('.countdown');
 		$_lastUpdate = $('#last-update');
+        $('#total-paused').text('0');
+        $('#total-online').text('0');
+        $('#total-warning').text('0');
+        $('#total-offline').text('0');
 
 		for (var i in __apiKeys) {
 			getUptime(__apiKeys[i]);
