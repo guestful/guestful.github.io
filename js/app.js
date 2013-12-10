@@ -38,8 +38,7 @@ myApp.dashboard = (function ($) {
         $('#total-offline').text('0');
 
         $.ajax({
-            url: 'http://guestful-backend-development.herokuapp.com/api/meta/version',
-            //url: 'http://api-dev.guestful.com/api/meta/version',
+            url: 'http://api-dev.guestful.com/api/meta/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
@@ -50,6 +49,36 @@ myApp.dashboard = (function ($) {
             },
             success: function (body) {
                 $('#v-api-dev').append("<div>" + body.data.version + "</div><div>" + body.data.commitHash + "</div>")
+            }
+        });
+
+        $.ajax({
+            url: 'http://api-stg.guestful.com/api/meta/version',
+            type: 'GET',
+            dataType: 'json',
+            xhrFields: {
+                withCredentials: true
+            },
+            headers: {
+                'X-Token': 'gUHohRmYf1vf6BrYCD6rkA'
+            },
+            success: function (body) {
+                $('#v-api-stg').append("<div>" + body.data.version + "</div><div>" + body.data.commitHash + "</div>")
+            }
+        });
+
+        $.ajax({
+            url: 'http://api.guestful.com/api/meta/version',
+            type: 'GET',
+            dataType: 'json',
+            xhrFields: {
+                withCredentials: true
+            },
+            headers: {
+                'X-Token': 'g0jaNzB7D9ZN37dkLtNBjQ'
+            },
+            success: function (body) {
+                $('#v-api').append("<div>" + body.data.version + "</div><div>" + body.data.commitHash + "</div>")
             }
         });
 
