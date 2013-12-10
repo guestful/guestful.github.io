@@ -38,7 +38,8 @@ myApp.dashboard = (function ($) {
         $('#total-offline').text('0');
 
         $.ajax({
-            url: 'http://api-dev.guestful.com/api/meta/version',
+            url: 'http://guestful-backend-development.herokuapp.com/api/meta/version',
+            //url: 'http://api-dev.guestful.com/api/meta/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
