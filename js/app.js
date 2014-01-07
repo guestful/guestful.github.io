@@ -38,7 +38,7 @@ myApp.dashboard = (function ($) {
         $('#total-offline').text('0');
 
         $.ajax({
-            url: 'http://api-dev.guestful.com/api/meta/version',
+            url: 'http://api-dev.guestful.com/api/monitoring/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
@@ -53,7 +53,7 @@ myApp.dashboard = (function ($) {
         });
 
         $.ajax({
-            url: 'http://api-stg.guestful.com/api/meta/version',
+            url: 'http://api-stg.guestful.com/api/monitoring/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
@@ -68,7 +68,7 @@ myApp.dashboard = (function ($) {
         });
 
         $.ajax({
-            url: 'http://api.guestful.com/api/meta/version',
+            url: 'http://api.guestful.com/api/monitoring/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
