@@ -48,7 +48,7 @@ myApp.dashboard = (function ($) {
                 'X-Token': 'OUreSCdGRdW77Mkzr6ZLtw'
             },
             success: function (body) {
-                $('#v-api-dev').append("<div>" + body.data.version + "</div>")
+                $('#v-api-dev').empty().append("<div>" + body.data.version + "</div>")
             }
         });
 
@@ -63,7 +63,7 @@ myApp.dashboard = (function ($) {
                 'X-Token': 'gUHohRmYf1vf6BrYCD6rkA'
             },
             success: function (body) {
-                $('#v-api-stg').append("<div>" + body.data.version + "</div>")
+                $('#v-api-stg').empty().append("<div>" + body.data.version + "</div>")
             }
         });
 
@@ -78,7 +78,7 @@ myApp.dashboard = (function ($) {
                 'X-Token': 'g0jaNzB7D9ZN37dkLtNBjQ'
             },
             success: function (body) {
-                $('#v-api').append("<div>" + body.data.version + "</div>")
+                $('#v-api').empty().append("<div>" + body.data.version + "</div>")
             }
         });
 
