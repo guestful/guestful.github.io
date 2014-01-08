@@ -18,7 +18,6 @@ var __apiKeys = [
     'm775876296-2317e7d92e01bfd5d3ea189a', // api
 
     'm775876232-c120b10ca6743f221a4712af', // build
-    'm775876282-96c62e51c3d533407662c6e0', // nexus
 
     'm775956824-ab99a82fde233b19b64cb031', // tuango dev
     'm775947848-65c1e227a89a47beefbd9d64', // tuango staging
