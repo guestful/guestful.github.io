@@ -38,14 +38,11 @@ myApp.dashboard = (function ($) {
         $('#total-offline').text('0');
 
         $.ajax({
-            url: 'http://api-dev.guestful.com/api/monitoring/version',
+            url: 'http://api-dev.guestful.com/api/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
                 withCredentials: true
-            },
-            headers: {
-                'X-Token': 'OUreSCdGRdW77Mkzr6ZLtw'
             },
             success: function (body) {
                 $('#v-api-dev').empty().append("<div>" + body.data.version + "</div>")
@@ -53,14 +50,11 @@ myApp.dashboard = (function ($) {
         });
 
         $.ajax({
-            url: 'http://api-stg.guestful.com/api/monitoring/version',
+            url: 'http://api-stg.guestful.com/api/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
                 withCredentials: true
-            },
-            headers: {
-                'X-Token': 'gUHohRmYf1vf6BrYCD6rkA'
             },
             success: function (body) {
                 $('#v-api-stg').empty().append("<div>" + body.data.version + "</div>")
