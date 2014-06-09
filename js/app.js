@@ -68,6 +68,9 @@ myApp.dashboard = (function ($) {
             xhrFields: {
                 withCredentials: true
             },
+            headers: {
+                'X-Token': 'g0jaNzB7D9ZN37dkLtNBjQ'
+            },
             success: function (body) {
                 $('#v-api').empty().append("<div>" + body.data.version + "</div>")
             }
