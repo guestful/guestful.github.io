@@ -77,7 +77,7 @@ myApp.dashboard = (function ($) {
         });
 
         $.ajax({
-            url: 'http://hub-development.guestful.com/hub/version',
+            url: 'http://hub-dev.guestful.com/hub/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
@@ -89,7 +89,7 @@ myApp.dashboard = (function ($) {
         });
 
         $.ajax({
-            url: 'http://hub-staging.guestful.com/hub/version',
+            url: 'http://hub-stg.guestful.com/hub/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
