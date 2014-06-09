@@ -68,11 +68,44 @@ myApp.dashboard = (function ($) {
             xhrFields: {
                 withCredentials: true
             },
-            headers: {
-                'X-Token': 'g0jaNzB7D9ZN37dkLtNBjQ'
-            },
             success: function (body) {
                 $('#v-api').empty().append("<div>" + body.data.version + "</div>")
+            }
+        });
+
+        $.ajax({
+            url: 'http://hub-development.guestful.com/hub/version',
+            type: 'GET',
+            dataType: 'json',
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function (body) {
+                $('#v-hub-dev').empty().append("<div>" + body.data.version + "</div>")
+            }
+        });
+
+        $.ajax({
+            url: 'http://hub-staging.guestful.com/hub/version',
+            type: 'GET',
+            dataType: 'json',
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function (body) {
+                $('#v-hub-stg').empty().append("<div>" + body.data.version + "</div>")
+            }
+        });
+
+        $.ajax({
+            url: 'http://hub.guestful.com/hub/version',
+            type: 'GET',
+            dataType: 'json',
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function (body) {
+                $('#v-hub').empty().append("<div>" + body.data.version + "</div>")
             }
         });
 
