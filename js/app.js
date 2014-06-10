@@ -84,7 +84,7 @@ myApp.dashboard = (function ($) {
                 withCredentials: true
             },
             success: function (body) {
-                $('#v-hub-dev').empty().append("<div>" + body.version + "</div>")
+                $('#v-hub-dev').empty().append("<div>" + body.data.version + "</div>")
             }
         });
 
@@ -96,7 +96,7 @@ myApp.dashboard = (function ($) {
                 withCredentials: true
             },
             success: function (body) {
-                $('#v-hub-stg').empty().append("<div>" + body.version + "</div>")
+                $('#v-hub-stg').empty().append("<div>" + body.data.version + "</div>")
             }
         });
 
@@ -108,7 +108,7 @@ myApp.dashboard = (function ($) {
                 withCredentials: true
             },
             success: function (body) {
-                $('#v-hub').empty().append("<div>" + body.version + "</div>")
+                $('#v-hub').empty().append("<div>" + body.data.version + "</div>")
             }
         });
 
