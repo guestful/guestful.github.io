@@ -62,14 +62,11 @@ myApp.dashboard = (function ($) {
         });
 
         $.ajax({
-            url: 'http://api.guestful.com/api/monitoring/version',
+            url: 'http://api.guestful.com/api/version',
             type: 'GET',
             dataType: 'json',
             xhrFields: {
                 withCredentials: true
-            },
-            headers: {
-                'X-Token': 'g0jaNzB7D9ZN37dkLtNBjQ'
             },
             success: function (body) {
                 $('#v-api').empty().append("<div>" + body.data.version + "</div>")
