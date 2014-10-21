@@ -144,7 +144,7 @@ Other Modules
 
 ### i18n ###
 
-Guestful I18N support based on Unicode CLDR
+Guestful I18N support based on [Unicode CLDR](http://cldr.unicode.org/)
 
 [Go to project](https://github.com/guestful/module.i18n)
 
