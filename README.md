@@ -36,25 +36,25 @@ JAX-RS Client & Server Modules
 
 ### jaxrs-filter-cache ###
 
-JAX-RX Filter Cache
+JAX-RX Filter handling cache control in responses through a `@Cache` annotation.
 
 [Go to project](https://github.com/guestful/module.jaxrs-filter-cache)
 
 ### jaxrs-filter-charset ###
 
-JAX-RX Filter Charset
+JAX-RX Filter setting charset on top of content types through a `@Charset` annotation
 
 [Go to project](https://github.com/guestful/module.jaxrs-filter-charset)
 
 ### jaxrs-filter-client-cookie ###
 
-JAX-RX Filter Client Cookie
+JAX-RX Filter for clients to keep track of cookies to re-send them on next request
 
 [Go to project](https://github.com/guestful/module.jaxrs-filter-client-cookie)
 
 ### jaxrs-filter-cookie-removal ###
 
-JAX-RX Filter Cookie Removal
+JAX-RX Filter which sends a cookie removal header for matched cookies
 
 [Go to project](https://github.com/guestful/module.jaxrs-filter-cookie-removal)
 
@@ -66,25 +66,25 @@ JAX-RS CORS Support
 
 ### jaxrs-filter-jsend ###
 
-JAX-RX Filter Jsend
+JAX-RX Filter to support a modified [Jsend](http://labs.omniti.com/labs/jsend) body wrapper
 
 [Go to project](https://github.com/guestful/module.jaxrs-filter-jsend)
 
 ### jaxrs-filter-security ###
 
-JAX-RS Security Filters (JSR-250, Http Basic, Cookie, Remember-Me, etc)
+JAX-RS Security Filters to handle Http Basic Auth, Custom Form Auth, Authz through JSR-250, Cookie Auth, Remember-Me, etc
 
 [Go to project](https://github.com/guestful/module.jaxrs-filter-security)
 
 ### jaxrs-http-patch ###
 
-JAX-RS HTTP PATCH
+JAX-RS Filtert to support HTTP PATCH method through a `@PATCH` annotation
 
 [Go to project](https://github.com/guestful/module.jaxrs-http-patch)
 
 ### jaxrs-media-json ###
 
-JAX-RS Media Json
+JAX-RS Provider linked to Guestful Json Serializer interface which is pluggable with Groovy, Boon or Jackson
 
 [Go to project](https://github.com/guestful/module.jaxrs-media-json)
 
@@ -93,49 +93,49 @@ JAX-RS based API Clients
 
 ### mandrill-client ###
 
-Mandrill Client based on JAX-RS
+[Mandrill](https://mandrillapp.com/) Client based on JAX-RS
 
 [Go to project](https://github.com/guestful/module.mandrill-client)
 
 ### mixpanel-client ###
 
-Mixpanel Client based on JAX-RS
+[Mixpanel](https://mixpanel.com/) Client based on JAX-RS
 
 [Go to project](https://github.com/guestful/module.mixpanel-client)
 
 ### nextable-client ###
 
-Nextable Client based on JAX-RS
+[Nextable](http://home.nextable.com/) Client based on JAX-RS
 
 [Go to project](https://github.com/guestful/module.nextable-client)
 
 ### pusher-client ###
 
-Pusher Client based on JAX-RS
+[Pusher](http://pusher.com/) Client based on JAX-RS
 
 [Go to project](https://github.com/guestful/module.pusher-client)
 
 ### twilio-client ###
 
-Twilio Client based on JAX-RS
+[Twilio](https://www.twilio.com/) Client based on JAX-RS
 
 [Go to project](https://github.com/guestful/module.twilio-client)
 
 ### iron-mq-client ###
 
-Iron MQ Client based on JAX-RS
+[Iron MQ](http://www.iron.io/mq) Client based on JAX-RS
 
 [Go to project](https://github.com/guestful/module.iron-mq-client)
 
 ### facebook-client ###
 
-Facebook Client based on JAX-RS
+[Facebook](https://www.facebook.com/) Client based on JAX-RS
 
 [Go to project](https://github.com/guestful/module.facebook-client)
 
 ### amazon-client ###
 
-Amazon Client based on JAX-RS
+[Amazon AWS](http://aws.amazon.com/) Client based on JAX-RS
 
 [Go to project](https://github.com/guestful/module.amazon-client)
 
@@ -144,48 +144,48 @@ Other Modules
 
 ### i18n ###
 
-Guestful I18N data based on Unicode CLDR
+Guestful I18N support based on Unicode CLDR
 
 [Go to project](https://github.com/guestful/module.i18n)
 
 ### java-agent ###
 
-Java Agent Tools
+Java Agent Tools to expose `Instrumentation` API, memory used, etc...
 
 [Go to project](https://github.com/guestful/module.java-agent)
 
 ### jsr310-extensions ###
 
-JSR310 Extensions
+JSR310 Extensions: `ZonedInterval`, Groovy serialization, Kryo serialization, Mongo serializations, Groovy extensions
 
 [Go to project](https://github.com/guestful/module.jsr310-extensions)
 
 ### eventbus ###
 
-Event Bus
+EventBus interface backed by several providers (Guava EventBus, Redis PubSub, IronMQ, Mongo) to support in-memory events, cluster-dispatched events, Queued events and scheduled events
 
 [Go to project](https://github.com/guestful/module.eventbus)
 
 ### json-serializer ###
 
-JSON Serializer
+JSON Serializer API backed by any provider amongst Groovy, Boon, Jackson
 
 [Go to project](https://github.com/guestful/module.json-serializer)
 
 ### simple-pool ###
 
-Simple Object Pooling library
+Simple Object Pooling library using Java Concurrent API
 
 [Go to project](https://github.com/guestful/module.simple-pool)
-
-### text-to-asciiart ###
-
-Text to ASCII Art
-
-[Go to project](https://github.com/guestful/module.text-to-asciiart)
 
 ### logging-extensions ###
 
 Logging extensions for Logback, SLF4j, etc.
 
 [Go to project](https://github.com/guestful/module.logging-extensions)
+
+### text-to-asciiart ###
+
+Text to ASCII Art
+
+[Go to project](https://github.com/guestful/module.text-to-asciiart)
