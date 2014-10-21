@@ -3,6 +3,8 @@ Guestful OSS
 
 Welcome to Guestful OSS !
 
+This is a list of technical modules we are using at Guestful. You can also use them, and of course send us some pull requests for new versions or fixes!
+
 Jersey Modules
 --------------
 
