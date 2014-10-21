@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Guestful OSS : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Guestful OSS</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/guestful">View on GitHub</a>
+
+          <h1 id="project_title">Guestful OSS</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="guestful-oss" class="anchor" href="#guestful-oss"><span class="octicon octicon-link"></span></a>Guestful OSS</h1>
+
+<p>Welcome to Guestful OSS !</p>
+
+<h2>
+<a name="jersey-modules" class="anchor" href="#jersey-modules"><span class="octicon octicon-link"></span></a>Jersey Modules</h2>
+
+<h3>
+<a name="jersey-container" class="anchor" href="#jersey-container"><span class="octicon octicon-link"></span></a>jersey-container</h3>
+
+<p>Jersey Container API. Discover the implementation to use from the classpath.</p>
+
+<pre><code>Container container = Container.create(GuestfulResourceConfig)
+    .setPort(Env.PORT)
+    .setMaxWorkers(Env.WORKERS)
+    .setContextPath('/api')
+</code></pre>
+
+<p><a href="https://github.com/guestful/module.jersey-container">Go to project</a></p>
+
+<h3>
+<a name="jersey-container-undertow" class="anchor" href="#jersey-container-undertow"><span class="octicon octicon-link"></span></a>jersey-container-undertow</h3>
+
+<p>Undertow Jersey Container implementation</p>
+
+<p><a href="https://github.com/guestful/module.jersey-container-undertow">Go to project</a></p>
+
+<h3>
+<a name="jersey-container-jetty" class="anchor" href="#jersey-container-jetty"><span class="octicon octicon-link"></span></a>jersey-container-jetty</h3>
+
+<p>Jetty Jersey Container implementation</p>
+
+<p><a href="https://github.com/guestful/module.jersey-container-jetty">Go to project</a></p>
+
+<h2>
+<a name="jax-rs-client--server-modules" class="anchor" href="#jax-rs-client--server-modules"><span class="octicon octicon-link"></span></a>JAX-RS Client &amp; Server Modules</h2>
+
+<h3>
+<a name="jaxrs-filter-cache" class="anchor" href="#jaxrs-filter-cache"><span class="octicon octicon-link"></span></a>jaxrs-filter-cache</h3>
+
+<p>JAX-RX Filter Cache</p>
+
+<p><a href="https://github.com/guestful/module.jaxrs-filter-cache">Go to project</a></p>
+
+<h3>
+<a name="jaxrs-filter-charset" class="anchor" href="#jaxrs-filter-charset"><span class="octicon octicon-link"></span></a>jaxrs-filter-charset</h3>
+
+<p>JAX-RX Filter Charset</p>
+
+<p><a href="https://github.com/guestful/module.jaxrs-filter-charset">Go to project</a></p>
+
+<h3>
+<a name="jaxrs-filter-client-cookie" class="anchor" href="#jaxrs-filter-client-cookie"><span class="octicon octicon-link"></span></a>jaxrs-filter-client-cookie</h3>
+
+<p>JAX-RX Filter Client Cookie</p>
+
+<p><a href="https://github.com/guestful/module.jaxrs-filter-client-cookie">Go to project</a></p>
+
+<h3>
+<a name="jaxrs-filter-cookie-removal" class="anchor" href="#jaxrs-filter-cookie-removal"><span class="octicon octicon-link"></span></a>jaxrs-filter-cookie-removal</h3>
+
+<p>JAX-RX Filter Cookie Removal</p>
+
+<p><a href="https://github.com/guestful/module.jaxrs-filter-cookie-removal">Go to project</a></p>
+
+<h3>
+<a name="jaxrs-filter-cors" class="anchor" href="#jaxrs-filter-cors"><span class="octicon octicon-link"></span></a>jaxrs-filter-cors</h3>
+
+<p>JAX-RS CORS Support</p>
+
+<p><a href="https://github.com/guestful/module.jaxrs-filter-cors">Go to project</a></p>
+
+<h3>
+<a name="jaxrs-filter-jsend" class="anchor" href="#jaxrs-filter-jsend"><span class="octicon octicon-link"></span></a>jaxrs-filter-jsend</h3>
+
+<p>JAX-RX Filter Jsend</p>
+
+<p><a href="https://github.com/guestful/module.jaxrs-filter-jsend">Go to project</a></p>
+
+<h3>
+<a name="jaxrs-filter-security" class="anchor" href="#jaxrs-filter-security"><span class="octicon octicon-link"></span></a>jaxrs-filter-security</h3>
+
+<p>JAX-RS Security Filters (JSR-250, Http Basic, Cookie, Remember-Me, etc)</p>
+
+<p><a href="https://github.com/guestful/module.jaxrs-filter-security">Go to project</a></p>
+
+<h3>
+<a name="jaxrs-http-patch" class="anchor" href="#jaxrs-http-patch"><span class="octicon octicon-link"></span></a>jaxrs-http-patch</h3>
+
+<p>JAX-RS HTTP PATCH</p>
+
+<p><a href="https://github.com/guestful/module.jaxrs-http-patch">Go to project</a></p>
+
+<h3>
+<a name="jaxrs-media-json" class="anchor" href="#jaxrs-media-json"><span class="octicon octicon-link"></span></a>jaxrs-media-json</h3>
+
+<p>JAX-RS Media Json</p>
+
+<p><a href="https://github.com/guestful/module.jaxrs-media-json">Go to project</a></p>
+
+<h2>
+<a name="jax-rs-based-api-clients" class="anchor" href="#jax-rs-based-api-clients"><span class="octicon octicon-link"></span></a>JAX-RS based API Clients</h2>
+
+<h3>
+<a name="mandrill-client" class="anchor" href="#mandrill-client"><span class="octicon octicon-link"></span></a>mandrill-client</h3>
+
+<p>Mandrill Client based on JAX-RS</p>
+
+<p><a href="https://github.com/guestful/module.mandrill-client">Go to project</a></p>
+
+<h3>
+<a name="mixpanel-client" class="anchor" href="#mixpanel-client"><span class="octicon octicon-link"></span></a>mixpanel-client</h3>
+
+<p>Mixpanel Client based on JAX-RS</p>
+
+<p><a href="https://github.com/guestful/module.mixpanel-client">Go to project</a></p>
+
+<h3>
+<a name="nextable-client" class="anchor" href="#nextable-client"><span class="octicon octicon-link"></span></a>nextable-client</h3>
+
+<p>Nextable Client based on JAX-RS</p>
+
+<p><a href="https://github.com/guestful/module.nextable-client">Go to project</a></p>
+
+<h3>
+<a name="pusher-client" class="anchor" href="#pusher-client"><span class="octicon octicon-link"></span></a>pusher-client</h3>
+
+<p>Pusher Client based on JAX-RS</p>
+
+<p><a href="https://github.com/guestful/module.pusher-client">Go to project</a></p>
+
+<h3>
+<a name="twilio-client" class="anchor" href="#twilio-client"><span class="octicon octicon-link"></span></a>twilio-client</h3>
+
+<p>Twilio Client based on JAX-RS</p>
+
+<p><a href="https://github.com/guestful/module.twilio-client">Go to project</a></p>
+
+<h3>
+<a name="iron-mq-client" class="anchor" href="#iron-mq-client"><span class="octicon octicon-link"></span></a>iron-mq-client</h3>
+
+<p>Iron MQ Client based on JAX-RS</p>
+
+<p><a href="https://github.com/guestful/module.iron-mq-client">Go to project</a></p>
+
+<h3>
+<a name="facebook-client" class="anchor" href="#facebook-client"><span class="octicon octicon-link"></span></a>facebook-client</h3>
+
+<p>Facebook Client based on JAX-RS</p>
+
+<p><a href="https://github.com/guestful/module.facebook-client">Go to project</a></p>
+
+<h3>
+<a name="amazon-client" class="anchor" href="#amazon-client"><span class="octicon octicon-link"></span></a>amazon-client</h3>
+
+<p>Amazon Client based on JAX-RS</p>
+
+<p><a href="https://github.com/guestful/module.amazon-client">Go to project</a></p>
+
+<h2>
+<a name="other-modules" class="anchor" href="#other-modules"><span class="octicon octicon-link"></span></a>Other Modules</h2>
+
+<h3>
+<a name="i18n" class="anchor" href="#i18n"><span class="octicon octicon-link"></span></a>i18n</h3>
+
+<p>Guestful I18N data based on Unicode CLDR</p>
+
+<p><a href="https://github.com/guestful/module.i18n">Go to project</a></p>
+
+<h3>
+<a name="java-agent" class="anchor" href="#java-agent"><span class="octicon octicon-link"></span></a>java-agent</h3>
+
+<p>Java Agent Tools</p>
+
+<p><a href="https://github.com/guestful/module.java-agent">Go to project</a></p>
+
+<h3>
+<a name="jsr310-extensions" class="anchor" href="#jsr310-extensions"><span class="octicon octicon-link"></span></a>jsr310-extensions</h3>
+
+<p>JSR310 Extensions</p>
+
+<p><a href="https://github.com/guestful/module.jsr310-extensions">Go to project</a></p>
+
+<h3>
+<a name="eventbus" class="anchor" href="#eventbus"><span class="octicon octicon-link"></span></a>eventbus</h3>
+
+<p>Event Bus</p>
+
+<p><a href="https://github.com/guestful/module.eventbus">Go to project</a></p>
+
+<h3>
+<a name="json-serializer" class="anchor" href="#json-serializer"><span class="octicon octicon-link"></span></a>json-serializer</h3>
+
+<p>JSON Serializer</p>
+
+<p><a href="https://github.com/guestful/module.json-serializer">Go to project</a></p>
+
+<h3>
+<a name="simple-pool" class="anchor" href="#simple-pool"><span class="octicon octicon-link"></span></a>simple-pool</h3>
+
+<p>Simple Object Pooling library</p>
+
+<p><a href="https://github.com/guestful/module.simple-pool">Go to project</a></p>
+
+<h3>
+<a name="text-to-asciiart" class="anchor" href="#text-to-asciiart"><span class="octicon octicon-link"></span></a>text-to-asciiart</h3>
+
+<p>Text to ASCII Art</p>
+
+<p><a href="https://github.com/guestful/module.text-to-asciiart">Go to project</a></p>
+
+<h3>
+<a name="logging-extensions" class="anchor" href="#logging-extensions"><span class="octicon octicon-link"></span></a>logging-extensions</h3>
+
+<p>Logging extensions for Logback, SLF4j, etc.</p>
+
+<p><a href="https://github.com/guestful/module.logging-extensions">Go to project</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
