@@ -19,7 +19,7 @@ Container container = Container.create(GuestfulResourceConfig)
     .setContextPath('/api')
 ```
 
-[Go to project](module.jersey-container)
+>> [Go to project](module.jersey-container) <<
 
 ### jersey-container-undertow ###
 
