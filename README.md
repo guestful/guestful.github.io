@@ -75,7 +75,7 @@ JAX-RS CORS Support
 
 ### jaxrs-filter-jsend ###
 
-JAX-RX Filter to support a modified [Jsend](http://labs.omniti.com/labs/jsend) body wrapper
+JAX-RX Filter to support a modified [Jsend](http://labs.omniti.com/labs/jsend) body wrapper through a `@Jsend` annotation
 
 \>> [Go to project](module.jaxrs-filter-jsend) <<
 
