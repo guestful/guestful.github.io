@@ -9,7 +9,6 @@ This is a list of technical modules we are using at Guestful. You can also use t
 
 - [Jersey Modules](#jersey-modules)
 - [JAX-RS Client and Server Modules](#jax-rs-client-and-server-modules)
-- [Reservations table](#reservations)
 - [JAX-RS based API Clients](#jax-rs-based-api-clients)
 - [Other Modules](#other-modules)
 
