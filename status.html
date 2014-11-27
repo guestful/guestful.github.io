@@ -27,7 +27,7 @@
           </div>
 
       <div class="well">
-          <table cellborder="1">
+          <table cellborder="1" id="version-table">
               <thead>
                 <tr>
                     <th>&nbsp;</th>
@@ -178,8 +178,11 @@
 
     <script>
         $(function() {
-            $('iframe').dblclick(function(e) {
-                window.open(this.src);
+            $('#version-table td').dblclick(function(e) {
+                var url = $(this).find('iframe').attr('src');
+                if(url) {
+                    window.open(url);
+                }
             });
         });
     </script>
