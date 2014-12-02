@@ -85,6 +85,12 @@ JAX-RS Security Filters to handle Http Basic Auth, Custom Form Auth, Authz throu
 
 \>> [Go to project](module.jaxrs-filter-security) <<
 
+### jaxrs-filter-cookie-auth ###
+
+JAX-RS Filter to support cookie authentication mechanims and remembering with encryption
+
+\>> [Go to project](module.jaxrs-filter-cookie-auth) <<
+
 ### jaxrs-http-patch ###
 
 JAX-RS Filtert to support HTTP PATCH method through a `@PATCH` annotation
