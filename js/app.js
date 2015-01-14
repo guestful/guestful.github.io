@@ -115,7 +115,7 @@ myApp.dashboard = (function ($) {
 
         attachListners($('html'));
 
-        _intervalId = setInterval(countdown, 1000);
+        //_intervalId = setInterval(countdown, 1000);
     }
 
     function attachListners($target) {
