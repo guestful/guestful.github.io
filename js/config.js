@@ -21,9 +21,6 @@ var __apiKeys = [
     'm776231923-021a0042e897e0e03737a792', // hub-stg
     'm776231924-8f717ff92c4b67e3cb9cba9e', // hub
 
-    'm775956824-ab99a82fde233b19b64cb031', // tuango dev
-    'm775947848-65c1e227a89a47beefbd9d64', // tuango staging
-    'm775947849-55dec478c1f37136e4fa4706', // tuango production
 ];
 
 //refresh interval (in seconds)
